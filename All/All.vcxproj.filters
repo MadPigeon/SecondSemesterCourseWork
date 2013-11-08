@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\1 Sort">
+      <UniqueIdentifier>{5cfe83c1-e833-4ab9-b684-5be7477e939d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\2 Search">
+      <UniqueIdentifier>{695cf725-1ae7-4383-86fe-e3bd6c75a555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\3 Stack">
+      <UniqueIdentifier>{c715d863-35af-40e5-a097-930946890d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\4 RevPolish">
+      <UniqueIdentifier>{5b4d092e-3476-4ca0-b9b9-7653ce57e6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\5 binTree">
+      <UniqueIdentifier>{c8b9f2c7-7d63-43a4-b4a0-a74eb758f711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\! Help">
+      <UniqueIdentifier>{0c54fe2d-ac36-42d3-ae81-f322d736a9be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all.h">
+      <Filter>Заголовочные файлы\! Help</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>Заголовочные файлы\! Help</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Заголовочные файлы\! Help</Filter>
+    </ClInclude>
+    <ClInclude Include="RK.h">
+      <Filter>Заголовочные файлы\2 Search</Filter>
+    </ClInclude>
+    <ClInclude Include="BM.h">
+      <Filter>Заголовочные файлы\2 Search</Filter>
+    </ClInclude>
+    <ClInclude Include="KMP.h">
+      <Filter>Заголовочные файлы\2 Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.h">
+      <Filter>Заголовочные файлы\2 Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Заголовочные файлы\1 Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="everysort.h">
+      <Filter>Заголовочные файлы\1 Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sortgen.h">
+      <Filter>Заголовочные файлы\1 Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sortshow.h">
+      <Filter>Заголовочные файлы\1 Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Заголовочные файлы\3 Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="RevPolish.h">
+      <Filter>Заголовочные файлы\4 RevPolish</Filter>
+    </ClInclude>
+    <ClInclude Include="symbol.h">
+      <Filter>Заголовочные файлы\4 RevPolish</Filter>
+    </ClInclude>
+    <ClInclude Include="binTree.h">
+      <Filter>Заголовочные файлы\5 binTree</Filter>
+    </ClInclude>
+    <ClInclude Include="binTreeDelete.h">
+      <Filter>Заголовочные файлы\5 binTree</Filter>
+    </ClInclude>
+    <ClInclude Include="binTreeBalance.h">
+      <Filter>Заголовочные файлы\5 binTree</Filter>
+    </ClInclude>
+    <ClInclude Include="binTreeCreateFirstElement.h">
+      <Filter>Заголовочные файлы\5 binTree</Filter>
+    </ClInclude>
+    <ClInclude Include="binTreeInsert.h">
+      <Filter>Заголовочные файлы\5 binTree</Filter>
+    </ClInclude>
+    <ClInclude Include="binTreePrint.h">
+      <Filter>Заголовочные файлы\5 binTree</Filter>
+    </ClInclude>
+    <ClInclude Include="size.h">
+      <Filter>Заголовочные файлы\3 Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="push.h">
+      <Filter>Заголовочные файлы\3 Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="pop.h">
+      <Filter>Заголовочные файлы\3 Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="last.h">
+      <Filter>Заголовочные файлы\3 Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>Заголовочные файлы\3 Stack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
